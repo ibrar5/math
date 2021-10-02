@@ -1,0 +1,47 @@
+
+@media (max-width: 575px) {
+
+    
+    .form{
+        width: 280px;
+        height: 380px;
+        position: relative;
+        margin: 6% auto;
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px;
+    
+    }
+}
+@media (min-width: 576px) {
+    .form{
+        width: 280px;
+        height: 380px;
+        position: relative;
+        margin: 6% auto;
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px;
+    
+    }
+}
+.form{
+    padding-top: 50px;
+    
+}
+.form:hover{
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+.input{
+    width: 70%;
+    margin: 20px 0px;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+    
+}
+body{
+    background-color: aliceblue;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiply</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+<h4 id="player_1_o"></h4>
+<span id="score_1"></span>
+<h4 id="player_2_o"></h4>
+<span id="score_2"></span>
+<div class="container">
+	<center>
+		<h2 style="color: white;">Guess The Word!</h2>
+		<h3 id="player_qu"></h3>
+		<h3 id="player_ans"></h3>
+		<div id="output" class="col-lg-6"></div>
+		<br>
+		<br>
+
+		<label>Send You Number:</label>
+
+		<br>
+		<input type="text" id="number_1" placeholder="Enter Your Number" class="form-controll" style="margin-bottom: 20px;"><br>
+		<input type="text" id="number_2" placeholder="Enter Your Number" class="form-controll" style="margin-bottom: 20px;">
+		<button class="btn btn-info" onclick="send()" style="width: 35%;">Send</button>
+	</center>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
